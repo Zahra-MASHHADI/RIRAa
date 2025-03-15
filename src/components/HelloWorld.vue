@@ -23,4 +23,9 @@ export default {
     justify-content: center;
     align-items: center;
   }
+  @media screen and (max-width: 768px) {  
+   .relative img{
+    width:500px
+   }
+}  
 </style>
