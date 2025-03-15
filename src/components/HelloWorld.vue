@@ -25,6 +25,7 @@ export default {
 <style scoped>
   
   .relative{
+    padding: 10px;
     position: relative;
     width: 100%;
     display:flex;
@@ -43,14 +44,16 @@ export default {
     /* width:100%; */
     flex-wrap: wrap;
    }
-   .relative .content{
-    width:85  %
+   .relative .content img{
+    width:85%
    }
-   .relative div img{
-    width:100%
+   .relative .mobile img{
+    width:70%;
+
    }
    .relative .mobile{
-
+    text-align: center;
+    margin-bottom: 40px;
     display:block;
 
     }
