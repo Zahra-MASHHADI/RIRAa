@@ -25,7 +25,7 @@ export default {
   padding:0;
 }
 .mainPage{
-  background-color: black;
+  background-color: #f5f5f5;
   height:100vh;
   display: flex;
     justify-items: center;
