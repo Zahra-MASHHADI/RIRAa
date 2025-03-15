@@ -45,7 +45,7 @@ export default {
     flex-wrap: wrap;
    }
    .relative .content img{
-    width:85%
+    width:90%
    }
    .relative .mobile img{
     width:70%;
