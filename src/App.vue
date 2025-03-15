@@ -2,7 +2,7 @@
   <div class="mainPage">
 
     <HelloWorld/>
-<!-- dgdg -->
+
 
   </div>
 </template>
@@ -20,8 +20,16 @@ export default {
 
 <style>
 
+#app , body{
+  margin:0;
+  padding:0;
+}
 .mainPage{
   background-color: black;
   height:100vh;
+  display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
 }
 </style>
