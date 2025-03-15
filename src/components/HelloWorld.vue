@@ -1,6 +1,14 @@
 <template>
-  <div class="relative">
-    <img src="/Task - Task info.png" />
+  <div class="relative ">
+    <div class="mobile">
+    <img src="/Frame.png" />
+    </div>
+    <div class="content">
+      <img src="/group4005.png" />  
+    </div>
+    <div class="desktop">
+    <img src="/Frame.png" />
+    </div>
   </div>
 </template>
 
@@ -22,10 +30,35 @@ export default {
     display:flex;
     justify-content: center;
     align-items: center;
+    gap:20px;
+  }
+  .relative .mobile{
+
+    display:none;
+
   }
   @media screen and (max-width: 768px) {  
-   .relative img{
-    width:500px
+  
+   .relative{
+    /* width:100%; */
+    flex-wrap: wrap;
    }
+   .relative .content{
+    width:85  %
+   }
+   .relative div img{
+    width:100%
+   }
+   .relative .mobile{
+
+    display:block;
+
+    }
+    .relative .desktop{
+
+    display:none;
+
+    }
+ 
 }  
 </style>
